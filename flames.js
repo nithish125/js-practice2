@@ -28,7 +28,7 @@ while(g.length>1){
     g.splice(n,1)
 }
 console.log(g)
-h.append(g[0])
+h.innerHTML=(g[0])
 
     // console.log(names.split(''))
     // names.split('').splice(0,2,2)
